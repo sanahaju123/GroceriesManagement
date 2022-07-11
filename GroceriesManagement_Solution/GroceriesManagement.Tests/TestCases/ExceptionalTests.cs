@@ -14,7 +14,7 @@ namespace GroceriesManagement.Tests.TestCases
         /// </summary>
         private readonly ITestOutputHelper _output;
         private Grocery _grocery;
-        private static string type = "Exceptional";
+        private static string type = "Exception";
         public ExceptionalTests(ITestOutputHelper output)
         {
             _output = output;
