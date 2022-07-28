@@ -60,46 +60,39 @@ namespace GroceriesManagement
         /// <summary>
         /// Add at least 5 Groceries details using List generic collection. <userinput>
         /// </summary>
-        /// <param name="worksheet"></param>
-        /// <param name="_schoolDetails"></param>
-        /// <param name="_school"></param>
-        /// <param name="i"></param>
-        /// <param name="workbook"></param>
-        /// <param name="path"></param>
-        /// <returns></returns>
+        
         public static bool AddGroceryDetails(IXLWorksheet worksheet, Grocery _groceryDetails, List<Grocery> _grocery, int i, XLWorkbook workbook, string path)
         {
+            //Write Your Code Here
             throw new NotImplementedException();
         }
 
         /// <summary>
         /// Serialize Groceries List object in Binary format and save it in text file
         /// </summary>
-        /// <param name="pathTxt"></param>
-        /// <param name="school"></param>
-        /// <returns></returns>
+        
         public static bool SerializeData(string pathTxt, List<Grocery> groceries)
         {
+            //Write Your Code Here
             throw new NotImplementedException();
         }
 
         /// <summary>
         /// Fetch all Groceries details from the saved text file .
         /// </summary>
-        /// <param name="pathTxt"></param>
-        /// <param name="jsonValue"></param>
-        /// <returns></returns>
+       
         public static bool SaveTextFile(string pathTxt, string jsonValue)
         {
+            //Write Your Code Here
             throw new NotImplementedException();
         }
 
         /// <summary>
         /// Deserialize the fetched Grocery list object. 
         /// </summary>
-        /// <param name="pathTxt"></param>
         public static bool DeserializeData(string pathTxt)
         {
+            //Write Your Code Here
             throw new NotImplementedException();
         }
 
@@ -108,9 +101,9 @@ namespace GroceriesManagement
         /// <summary>
         /// Show details of Groceries in descending order of name.
         /// </summary>
-        /// <param name="values"></param>
         public static bool DisplayAllDetails(List<Grocery> values)
         {
+            //Write Your Code Here
             throw new NotImplementedException();
         }
 
@@ -118,10 +111,9 @@ namespace GroceriesManagement
         /// <summary>
         /// Empty text file.
         /// </summary>
-        /// <param name="pathText"></param>
-        /// <param name="fileMode"></param>
         public static bool ClearText(string pathText, FileMode fileMode)
         {
+            //Write Your Code Here
             throw new NotImplementedException();
         }
     }
